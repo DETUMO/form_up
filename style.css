@@ -14,7 +14,8 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: wheat;
+    background: url(./image/photo_2022-08-05_09-13-23.jpg) no-repeat, url(/image/Tele.jpg);
+    background-size: auto;
     min-height: 100vh;
 }
 
@@ -28,8 +29,8 @@ h3 {
     gap: 35px;
     border-radius: 15px;
     background: #e3e3e3;
-    box-shadow: 16px 16px 32px #a70707,
-    -16px -16px 32px #e1cc07;
+    box-shadow: 16px 16px 32px #e1cc07 ,
+    -16px -16px 32px #a70707;
 }
 
 .line {
